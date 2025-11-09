@@ -1,0 +1,22 @@
+{
+  "name": "项目值班安排系统",           // 应用全称
+  "short_name": "排班系统",            // 桌面图标下的短名称
+  "start_url": "/",                    // 启动时打开的首页
+  "display": "standalone",             // 独立窗口，隐藏浏览器UI
+  "background_color": "#ffffff",       // 启动画面背景色
+  "theme_color": "#2196f3",           // 状态栏颜色（蓝色）
+  "description": "纯前端项目值班排班系统",  // 应用描述
+  
+  "icons": [                           // 图标配置（必须有！）
+    {
+      "src": "icon-192.png",           // 192x192像素图标文件
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",           // 512x512像素图标文件
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
